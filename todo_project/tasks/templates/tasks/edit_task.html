@@ -1,0 +1,26 @@
+{% extends 'tasks/base.html' %}
+
+{% block content %}
+
+<h2>Edit Task</h2>
+
+<form method="post">
+{% csrf_token %}
+
+<input class="form-control"
+type="text"
+name="title"
+value="{{ task.title }}">
+
+<button class="btn btn-primary mt-3">
+Save
+</button>
+
+<a class="btn btn-secondary mt-3"
+href="{% url 'task_list' %}">
+Cancel
+</a>
+
+</form>
+
+{% endblock %}
