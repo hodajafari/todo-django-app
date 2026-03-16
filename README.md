@@ -75,6 +75,9 @@ Get task by id
 /api/tasks/1/
 
 ---
+## Live Demo
+
+[Open App](https://your-project-name.onrender.com)
 
 ## Author
 
