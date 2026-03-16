@@ -77,7 +77,7 @@ Get task by id
 ---
 ## Live Demo
 
-[Open App](https://your-project-name.onrender.com)
+[Open App](https://todo-django-app-gllh.onrender.com)
 
 ## Author
 
